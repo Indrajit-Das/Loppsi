@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1000px;
+    }
+}
+
+.button a {
+    background-color: #00aeea;
+    padding: 0.5rem 1.5rem 0.6rem 1.5rem;
+    border-radius: 1.57rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*section two*/
+.banner {
+    background-image: url('../img/bannert.png');
+    background-size: cover;
+    height: 470px;
+}
+
+.navbar-nav .nav-link {
+    color: #18afe2;
+    font-size: 1.1rem;
+}
+
+.logo {
+    height: 70px;
+}
+
+.banner-text {
+    position: relative;
+    top: -250px;
+    left: 172px;
+}
+
+.banner-text-two {
+    position: relative;
+    top: -170px;
+    left: 247px;
+    font-size: 1.3rem;
+    color: #18afe2;
+}
+
+.cest {
+    background-image: url('../img/three.png');
+    background-size: cover;
+    height: 55px;
+}
+
+.cest h2 {
+    font-size: 1.1rem;
+    color: #f8d10c;
+}
+
+.pour {
+    background-image: url('./img/three2.png');
+    background-size: cover;
+    height: 600px;
+}
+
+.pour-text {
+    margin-top: 5.4rem;
+}
+
+.main-title h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+    color: #00ace8;
+    font-weight: 500;
+}
+
+.pour .pour-text p {
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.project {
+    background-image: url('../img/four.png');
+    background-size: cover;
+}
+
+.project .media img {
+    height: 60px;
+    width: 60px;
+}
+
+.project .media .media-body h4 {
+    font-size: 1rem;
+    line-height: 0.8
+}
+
+.project-text p {
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.project .shadow-sm {
+    border-radius: 15px;
+    border: 1px solid #f5e0e4;
+}
+
+.admission {
+    background-image: url('../img/six2.png');
+    background-size: cover;
+
+}
+
+.admission .main-title {
+    margin-top: 130px;
+}
+
+.admission .main-title p {
+    color: #ffffff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #00afe7;
+    width: 16px;
+    height: 16px;
+}
+
+.charge-one .charge-title:first-child {
+    background-color: #63c463;
+}
+
+.charge-title h2 {
+    color: #FFF;
+    font-size: 1.3rem;
+}
+
+.amount {
+    background-image: url('../img/five.png');
+    background-size: cover;
+}
+
+.contact {
+    background-image: url('../img/seven.png');
+    background-size: cover;
+}
+
+.form-control {
+    border-radius: 6.25rem;
+}
+
+.footer-content {
+    background-image: url('../img/eight.png');
+    background-size: cover;
+    height: 300px
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.copyright {
+    position: relative;
+    top: 100px;
+}
+
+.copyright p {
+    color: #505461;
+    font-size: 14px;
+    text-align: center !important;
+    color: #d3cbcb;
+}
+
+.footer-content .main-title {
+    margin-top: 100px;
+}
+
+.nav-two {
+    position: relative;
+    top: 90px;
+}
+
+.nav-link .fa {
+    color: #d3cbcb;
+}
+
+/*end section two*/
